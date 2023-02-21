@@ -10,7 +10,7 @@ s3 = session.resource('s3')
 
 # Set up the S3 bucket and directory path
 bucket_name = 'my-s3-bucket-malligo2'
-directory_path = '/root/slave1work/localfileuploadpath'
+directory_path = '/root/localfileuploadpath'
 
 # Loop through the files and directories in the directory
 for root, dirs, files in os.walk(directory_path):
