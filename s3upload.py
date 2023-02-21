@@ -3,8 +3,8 @@ import boto3
 
 # Set up the AWS credentials
 session = boto3.Session(
-    aws_access_key_id='AKIAVD4EYQ336MEOGM4G',
-    aws_secret_access_key='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'
+    aws_access_key_id='AKIAVD4EYQ33RVKVRMF4',
+    aws_secret_access_key='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'
 )
 s3 = session.resource('s3')
 
